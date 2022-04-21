@@ -1,0 +1,12 @@
+.container {
+  height: 201px;
+  width: 702px;
+}
+
+.col {
+  height: 67px;
+  width: 134px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
