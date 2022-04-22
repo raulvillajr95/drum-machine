@@ -8,49 +8,58 @@
   <title>Document</title>
 </head>
 <body>
-  <div id="drum-machine" class="container bg-dark text-light">
-    <div class="row">
-      <div id="camera" class="col drum-pad" onclick="soundQ()" onkeydown="soundQ()">
-        Q
-        <audio id="Q" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/04/camera-click-sound-effect.mp3"></audio>
-      </div>
-      <div id="machine-ty" class="col drum-pad" onclick="soundW()">
-        W
-        <audio id="W" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/04/machine-voice-thank-you-sound-effect.mp3"></audio>
-      </div>
-      <div id="sonic-stp" class="col drum-pad" onclick="soundE()">
-        E
-        <audio id="E" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/04/sonic-stopping-sound-effect.mp3"></audio>
-      </div>
-      <div></div>
-      <div id="bubble" class="col drum-pad" onclick="soundA()">
-        A
-        <audio id="A" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/03/bubble-sound-effect.mp3"></audio>
-      </div>
-      <div id="nin-switch" class="col drum-pad" onclick="soundS()">
-        S
-        <audio id="S" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/02/nintendo-switch-sound-effect.mp3"></audio>
-      </div>
-      <div id="horse" class="col drum-pad" onclick="soundD()">
-        D
-        <audio id="D" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/02/horse-noise-sound-effect.mp3"></audio>
-      </div>
-      <div></div>
-      <div id="punch" class="col drum-pad" onclick="soundZ()">
-        Z
-        <audio id="Z" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2021/08/punch-sound.mp3"></audio>
-      </div>
-      <div id="kick" class="col drum-pad" onclick="soundX()">
-        X
-        <audio id="X" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2020/04/punch-sound-effect.mp3"></audio>
-      </div>
-      <div id="pop" class="col drum-pad" onclick="soundC()">
-        C
-        <audio id="C" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/01/pop-sound-effect.mp3"></audio>
+  <div class="outer">
+    <div class="middle">
+      <div class="inner">
+        <div id="drum-machine" class="container bg-dark text-light rounded">
+          <div id="dispCon">
+            <h6>DRUM<br>MACHINE</h6>
+            <div id="display" class="rounded">- - - -</div>
+          </div>
+          <div class="row">
+            <div id="camera" class="col drum-pad" onclick="soundQ()" onkeydown="soundQ()">
+              Q
+              <audio id="Q" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/04/camera-click-sound-effect.mp3"></audio>
+            </div>
+            <div id="machine-ty" class="col drum-pad" onclick="soundW()">
+              W
+              <audio id="W" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/04/machine-voice-thank-you-sound-effect.mp3"></audio>
+            </div>
+            <div id="sonic-stp" class="col drum-pad" onclick="soundE()">
+              E
+              <audio id="E" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/04/sonic-stopping-sound-effect.mp3"></audio>
+            </div>
+            <div></div>
+            <div id="bubble" class="col drum-pad" onclick="soundA()">
+              A
+              <audio id="A" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/03/bubble-sound-effect.mp3"></audio>
+            </div>
+            <div id="nin-switch" class="col drum-pad" onclick="soundS()">
+              S
+              <audio id="S" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/02/nintendo-switch-sound-effect.mp3"></audio>
+            </div>
+            <div id="horse" class="col drum-pad" onclick="soundD()">
+              D
+              <audio id="D" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/02/horse-noise-sound-effect.mp3"></audio>
+            </div>
+            <div></div>
+            <div id="punch" class="col drum-pad" onclick="soundZ()">
+              Z
+              <audio id="Z" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2021/08/punch-sound.mp3"></audio>
+            </div>
+            <div id="kick" class="col drum-pad" onclick="soundX()">
+              X
+              <audio id="X" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2020/04/punch-sound-effect.mp3"></audio>
+            </div>
+            <div id="pop" class="col drum-pad" onclick="soundC()">
+              C
+              <audio id="C" class="clip" src="https://www.freesoundslibrary.com/wp-content/uploads/2022/01/pop-sound-effect.mp3"></audio>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div id="display">Display</div>
   <script src="scripts.js"></script>
 </body>
 </html>
